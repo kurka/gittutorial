@@ -9,25 +9,55 @@ header-includes:
 
 # Why
 
-## Hello world
-
-Hi!
-
 ## Organisation
 
-![](./screenshot_2017-12-05_14-21-13.png)
+![](./finalversion.png)
 
+
+## Organisation (closer example)
+
+![](./thiagofinal.jpeg)
 
 ## Team work
 
-![](./screenshot_2017-12-05_14-22-25.png)
+![](./screenshot_2018-02-21_15-36-14.png)
+
+
+# Tools
+
+## Git is not Github!
+
+- **Git** = tool
+- Github = **a** cloud service
+- Alternatives:
+  - Gitlab (better, less popular)
+  - Bitbucket
+
+## Tools
+
+- Command line (default)
+- Git Gui (default)
+- Editor integration (matlab, atom, visual studio code)
+- Gui clients:
+   - Github desktop
+   - Gitg
+   - TortoiseGit
 
 # Git basics
 
+## Hidden Mess
+
+![](local.png)
+
 ## Working Tree, Staging Area and Git Directory
 
-![](./screenshot_2017-12-05_14-23-19.png)
+![](areas.png)
 
+
+## Basic commands
+
+
+![](git-local-remote.png)
 
 ## Basic commands
 
@@ -40,9 +70,9 @@ git log
 ~~~
 
 
-## Basic commands
+## File Status
 
-![](./screenshot_2017-12-05_14-24-59.png)
+![](lifecycle.png)
 
 
 
@@ -52,11 +82,10 @@ git log
 ~~~
 git clone
 git pull
-git fetch
 git push
 ~~~
 
-## Github vs Git
+## Github + Git
 
 
 ~~~
@@ -66,4 +95,28 @@ git pull origin master
 ~~~
 
 
+## Advanced operations
 
+- merging
+- branching
+- forks/pull requests
+
+# Workflows
+
+## Branching worflows - Long-running branches
+
+![](lr-branches-2.png){width=45%} ![](successsfull-branching-model.png){width=45%}
+
+
+## Branching worflows - Topic Branches
+
+![Before](./topic-branches-1.png){width=45%}
+![After](./topic-branches-2.png){width=45%}
+
+## Github Workflows
+
+- Fork
+- Pull Requests
+- Testing/Deploy
+- Code Review
+<!-- ## Forks and Pull Requests -->
