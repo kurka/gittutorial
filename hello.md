@@ -1,2 +1,2 @@
 Hi
-Windows sucks
+Peace and Love
